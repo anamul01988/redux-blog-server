@@ -9,7 +9,7 @@ const cors = require("cors");
 // const { ObjectID } = require("bson");
 
 
-app.use(cors({origin: "http://localhost:3000"}));
+app.use(cors({origin: "https://blog-site-preview-redux.netlify.app"}));
 
 
 app.use(express.json());
